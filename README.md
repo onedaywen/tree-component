@@ -10,9 +10,24 @@ yarn install
 yarn run serve
 ```
 
-### Compiles and minifies for production
+### example
 ```
-yarn run build
+<template>
+  <div id="app">
+    <KyTree />
+  </div>
+</template>
+
+<script>
+import KyTree from './components/ky-tree/app.vue'
+
+export default {
+  name: 'app',
+  components: {
+    KyTree
+  }
+}
+</script>
 ```
 
 ### Lints and fixes files
