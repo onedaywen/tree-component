@@ -3,10 +3,6 @@
 ## Project setup
 ```
 yarn install
-```
-
-### Compiles and hot-reloads for development
-```
 yarn run serve
 ```
 
@@ -28,9 +24,4 @@ export default {
   }
 }
 </script>
-```
-
-### Lints and fixes files
-```
-yarn run lint
 ```
